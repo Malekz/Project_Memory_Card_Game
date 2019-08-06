@@ -189,3 +189,28 @@ function starsRating() {
     stars[3].classList.add("grey");
   }
 }
+
+////////////////////////////////////////////////////////
+/////////////////// Restart Game ///////////////////
+////////////////////////////////////////////////////
+
+function restartGame() {
+  // set it to false in order to fulfil the condition
+  // at line 130 to start the timer after opening the
+  // first card after restarting the game
+  // reset the moves to zero
+  moves = 0;
+  movesCounter.innerHTML = `0 Moves`;
+  // empty both arrays
+  matchedCards = [];
+  checkCards = [];
+  // to clear the old board, create a new
+  // shuffled  cards board
+  creatCardsBoard();
+
+  // reset the color of the stars
+  stars[5].classList.remove("grey");
+  stars[3].classList.remove("grey");
+}
+// to restart  the game when the player click on the restart icon
+restart.addEventListener("click", restartGame);
