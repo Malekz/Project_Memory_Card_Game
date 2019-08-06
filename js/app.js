@@ -134,3 +134,27 @@ function respondToTheClick(e) {
     wohoo();
   }
 }
+
+// if the cards are matched
+function matched() {
+  // add class match to both cards
+  checkCards[0].classList.add("match");
+  checkCards[1].classList.add("match");
+  // push both cards to the matchedCards array
+  matchedCards.push(checkCards[0]);
+  matchedCards.push(checkCards[1]);
+  // remove cards from checkCards array
+  checkCards = [];
+  // to allow opening and checking two cards again
+  cardsBoard.classList.remove("stop-event");
+}
+// if the cards are not matched
+function notMatched() {
+  // remove open & show classes from both cards
+  checkCards[0].classList.remove("open", "show");
+  checkCards[1].classList.remove("open", "show");
+  // remove cards from checkCards array
+  checkCards = [];
+  // to allow opening and checking two cards again
+  cardsBoard.classList.remove("stop-event");
+}
