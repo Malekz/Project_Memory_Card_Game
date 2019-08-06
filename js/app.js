@@ -43,3 +43,10 @@ const modal = document.querySelector(".modal");
 const ratingModal = document.querySelector(".rating-modal");
 const movesModal = document.querySelector(".moves-modal");
 const btnModal = document.querySelector(".btn-modal");
+
+////////////////////////////
+////// Cards array //////
+////////////////////////
+
+let checkCards = [];
+let matchedCards = [];
