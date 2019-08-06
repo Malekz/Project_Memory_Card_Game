@@ -6,6 +6,9 @@ It is part of udacity's Front-End Nanodegree projects.
 
 You can access the memory game from this link.
 
+
+Here is a game preview
+![Memory Card Game](img/preview.png.png)
 ## How The Game Works
 
 The game board consists of sixteen "cards" arranged in a grid. The deck is made up of eight different pairs of cards, each with 
