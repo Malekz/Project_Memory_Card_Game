@@ -158,3 +158,34 @@ function notMatched() {
   // to allow opening and checking two cards again
   cardsBoard.classList.remove("stop-event");
 }
+
+///////////////////////////////
+////////// Moves ///////////
+////////////////////////////
+
+function movesNum() {
+  // to increment moves number after opening two cards
+  moves++;
+  if (moves === 1) {
+    movesCounter.innerHTML = `1  Move`;
+  } else {
+    movesCounter.innerHTML = `${moves}  Moves`;
+  }
+  starsRating();
+}
+
+////////////////////////////////////
+///////// Stars Rating ///////////
+//////////////////////////////////
+
+function starsRating() {
+  // if the moves number is between 12 and 19
+  if (moves === 12) {
+    // change the color of the third star to grey
+    stars[5].classList.add("grey");
+    // if the moves number is 20 or more
+  } else if (moves === 20) {
+    // change the color of the second star to grey
+    stars[3].classList.add("grey");
+  }
+}
