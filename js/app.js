@@ -97,3 +97,40 @@ function creatCardsBoard() {
   // add event listener to the cards board
   cardsBoard.addEventListener("click", respondToTheClick);
 }
+
+///////////////////////////
+//// Opening Cards ///
+////////////////////////
+
+function respondToTheClick(e) {
+  let selectedCard = e.target;
+  // to make sure that the clicked target is a card &
+  // not an opened/matched card
+  if (
+    selectedCard.classList.contains("card") &&
+    !selectedCard.classList.contains("open", "show", "match")
+  ) {
+    // add classes open and show to the selected card
+    selectedCard.classList.add("open", "show");
+    // add the selected card to checkCards array to check if it's
+    // like the next selected card or not
+    checkCards.push(selectedCard);
+  }
+  // checking cards when their are two cards in checkCards array
+  if (checkCards.length === 2) {
+    // to prevent opening more than two cards till the
+    // checking process is finished
+    cardsBoard.classList.add("stop-event");
+    //counting the moves
+    movesNum();
+    // if the cards are matched call the matched function
+    if (checkCards[0].innerHTML === checkCards[1].innerHTML) {
+      matched();
+    } else {
+      // if they aren't matched call the notMatched function
+      // after 800ms to allow the player to see the second card
+      setTimeout(notMatched, 800);
+    }
+    wohoo();
+  }
+}
