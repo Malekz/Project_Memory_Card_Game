@@ -4,7 +4,9 @@ Memory Game is a complete browser-based card matching game (also known as Concen
 
 It is part of udacity's Front-End Nanodegree projects.
 
-You can access the memory game from this link.
+You can access the memory game when clicking the link below.
+
+https://malekz.github.io/udacity-memory-card-game/
 
 
 Here is a game preview
