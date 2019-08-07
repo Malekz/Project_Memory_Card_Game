@@ -9,7 +9,7 @@ You can access the memory game when clicking the link below.
 https://malekz.github.io/udacity-memory-card-game/
 
 
-Here is a game preview
+Here is a preview photo for the game when two cards match. 
 ![A](img/preview.png)
 ## How The Game Works
 
