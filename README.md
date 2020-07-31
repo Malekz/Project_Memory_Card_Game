@@ -34,7 +34,7 @@ The player could restart the game at any time by clicking on the restart icon.
 
 ## Resources
 
-* Shuffle function from [stackoverflow](http://stackoverflow.com/a/2450976)
-* Icons from Font [fontawesome](https://fontawesome.com/v4.7.0/icons/) - [cdn](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css)
-* [Acme](https://fonts.google.com/specimen/Acme) from Google Fonts
+* Shuffle function from [stackoverflow](http://stackoverflow.com/a/2450976).
+* Icons from Font [fontawesome](https://fontawesome.com/v4.7.0/icons/) - [cdn](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css).
+* [Acme](https://fonts.google.com/specimen/Acme) from Google Fonts.
 
