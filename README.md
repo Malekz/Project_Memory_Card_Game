@@ -1,6 +1,6 @@
 # Memory Game Project
 
-Memory Game is a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!
+Memory Game is a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game.
 
 It is part of udacity's Front-End Nanodegree projects.
 
