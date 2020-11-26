@@ -6,7 +6,8 @@ It is part of udacity's Front-End Nanodegree projects.
 
 You can access the memory game when clicking the link below.
 
-https://malekz.github.io/udacity-memory-card-game/
+https://malekz.github.io/Project_Memory_Card_Game/
+
 
 
 Here is a preview photo for the game when two cards match. 
